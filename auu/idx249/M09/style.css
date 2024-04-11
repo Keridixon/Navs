@@ -1,0 +1,97 @@
+html {
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+}
+
+header {
+    background-color: #f00;
+    width: 17%;
+    margin: 100px;
+    padding: 30px 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+li,
+a {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    background-image: url(images/navlinks.png);
+    background-repeat: no-repeat;
+}
+
+li:first-child a {
+    background-position: 0 0;
+}
+
+li:nth-child(2) a {
+    background-position: 45px 0;
+}
+
+li:nth-child(3) a {
+    background-position: 90px 0;
+}
+
+li:nth-child(4) a {
+    background-position: 135px 0;
+}
+
+li:last-child a {
+    background-position: 180px 0;
+}
+
+li:first-child a:hover {
+    background-position: 0 45px;
+}
+
+li:nth-child(2) a:hover {
+    background-position: 45px 45px;
+}
+
+li:nth-child(3) a:hover {
+    background-position: 90px 45px;
+}
+
+li:nth-child(4) a:hover {
+    background-position: 135px 45px;
+}
+
+li:last-child a:hover {
+    background-position: 180px 45px;
+}
+
+li:first-child.active a {
+    background-position: 0 90px;
+}
+
+li:nth-child(2).active a {
+    background-position: 45px 90px; 
+}
+
+li:nth-child(3).active a {
+    background-position: 90px 90px; 
+}
+
+li:nth-child(4).active a {
+    background-position: 135px 90px; 
+}
+
+li:last-child.active a {
+    background-position: 180px 90px; 
+}
+
